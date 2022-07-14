@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&family=Roboto&display=swap");
+h2 {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+}
+
+h4 {
+  font-size: 1.3rem;
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-size: 1rem;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.bg-light2 {
+  background-color: #D1CBCB;
+}
+
+.bg-light {
+  background-color: #F2F3F4;
+}
+
+.div-container-card {
+  padding-bottom: 4rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+
+.img-index {
+  width: 100%;
+  height: 40rem;
+  padding-bottom: 4rem;
+}
+
+.img-figure {
+  width: 10rem;
+}
+
+.img-small-index {
+  width: 7rem;
+}
+
+.div-index {
+  padding: 1rem 2rem 5rem 2rem;
+  text-align: center;
+}
+
+.code-gian {
+  padding-top: 2rem;
+}
+
+.div-container-portafolio {
+  padding: 4rem 3rem 2rem 3rem;
+  text-align: center;
+}
+
+.img-sobremi {
+  width: 20rem;
+  height: 15rem;
+  text-align: center;
+}
+
+.form-contacto {
+  padding: 2rem 5rem 2rem 5rem;
+}
+
+.img-contacto {
+  width: 100%;
+  height: 35rem;
+}
+
+.btn-portafolio {
+  width: 140px;
+  height: 35px;
+  border: none;
+  background: #5FF966;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.div-index-container {
+  display: flex;
+  justify-content: center;
+}
+
+.bg-light {
+  background-color: #F2F3F4;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer-icons {
+  width: 3rem;
+  padding: 1rem 0.3rem 2rem 0.3rem;
+}
+
+/*# sourceMappingURL=style.css.map */

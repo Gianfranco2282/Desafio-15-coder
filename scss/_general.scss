@@ -1,0 +1,28 @@
+
+h2 {
+  font-size: $textXl;
+  font-family: $mainFont;
+}
+
+h3 {
+  font-size: $textLg;
+  font-family: $mainFont;
+}
+
+h4 {
+  font-size: $textMd;
+  font-family: $mainFont;
+}
+
+p {
+  font-size: $textSm;
+  font-family: $secondaryFont;
+}
+
+.bg-light2 {
+  background-color: #D1CBCB;
+}
+
+.bg-light {
+	background-color: #F2F3F4;
+}
