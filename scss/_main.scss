@@ -48,7 +48,43 @@
   height: 35rem;
 }
 
+.portaf-divs{
+  display: flex;
+  flex: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.portaf-div-1{
+  border: 1px solid black;
+  padding: 2rem 2rem ;
+  margin-left: 1rem;
+  margin-right: 0.7rem;
+}
 
+.icon-portaf{
+  width: 1rem;
+  margin-right: 7px;
+}
+
+.bg-img{
+  background-image: url(../img/fondo1.jpg);
+  background-repeat: no-repeat;
+}
+
+.button-portaf{
+  border-radius: 7px;
+  padding: 0.2rem 0.7rem;
+  background-color: #30DF4D;
+}
+
+.color-letter-port{
+  color: #00AF1D;
+}
+
+.img-carrousel-portaf{
+  text-align: center;
+  padding-top: 5rem;
+}
 
 //Mixins
 @mixin btn($ancho, $alto, $bordes){

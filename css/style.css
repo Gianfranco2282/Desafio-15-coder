@@ -77,6 +77,10 @@ p {
   height: 35rem;
 }
 
+.color-letter-port {
+  color: #00AF1D;
+}
+
 .btn-portafolio {
   width: 140px;
   height: 35px;
@@ -103,5 +107,9 @@ p {
   width: 3rem;
   padding: 1rem 0.3rem 2rem 0.3rem;
 }
+
+
+
+
 
 /*# sourceMappingURL=style.css.map */
