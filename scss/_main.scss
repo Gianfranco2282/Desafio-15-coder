@@ -1,8 +1,15 @@
+.logo{
+  width: 80px;
+}
 
 .div-container-card {
   padding-bottom: 4rem;
   padding-right: 3rem;
   padding-left: 3rem;
+}
+
+.padding-cards-portaf{
+  padding-bottom: 3rem;
 }
 
 .img-index {
@@ -39,10 +46,6 @@
   text-align: center;
 }
 
-.form-contacto {
-  padding: 2rem 5rem 2rem 5rem;
-}
-
 .img-contacto {
   width: 100%;
   height: 35rem;
@@ -71,6 +74,18 @@
   background-repeat: no-repeat;
 }
 
+.img-carrousel-portaf{
+  padding: 0%;
+  margin: 0%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 30rem;
+  .img-program{
+  max-width: 100%;
+  }
+}
+
 .button-portaf{
   border-radius: 7px;
   padding: 0.2rem 0.7rem;
@@ -84,6 +99,126 @@
 .img-carrousel-portaf{
   text-align: center;
   padding-top: 5rem;
+}
+
+.carrousel-index{
+  width: 100%;
+  height: 30rem;
+}
+
+.padding-disenamos{
+  padding-top: 5rem;
+}
+
+.padding-acordeon{
+  padding-top: 1rem;
+}
+
+.div-presentacion{
+  text-align: center;
+  padding: 5rem 1rem 5rem 1rem;
+}
+
+.padding-index-img{
+  padding: 1rem 0rem 0rem 0rem;
+}
+
+.img-div{
+  width: 21rem;
+  height: 16rem;
+  padding: 1.2rem 0rem;
+}
+
+.display-flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.scale:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.cards-mantenimiento2{
+  text-align: center;
+  padding: 0.90rem 0rem;
+}
+.cards-mantenimiento1{
+  text-align: center;
+  padding: 2rem 0rem;
+}
+.video{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+//Contacto
+.alineacion-programmer-img{
+  display: flex;
+  justify-content: center;
+  .programmer-img{
+  width: 10rem;
+  padding-bottom: 2rem;
+  padding-top: 3rem;
+  }
+}
+
+.div-container{
+  display: flex;
+  justify-content: center;
+}
+
+.form-contacto{
+  padding: 2rem 2rem;
+}
+
+.img-uba{
+  padding-left: 6rem;
+}
+
+//Nesting-anidacion
+.padding-portafolio-cards{
+  padding-top: 3rem;
+  .padding-img-cards{
+    padding-top: 1.7rem;
+  }
+}
+
+.div-inicio{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 7rem;
+  .img1{
+    max-width: 100%;
+    width: 21rem;
+    padding-right: 1rem;
+  }
+  .img2{
+    max-width: 100%;
+    width: 19rem;
+  }
+  .img3{
+    max-width: 100%;
+    width: 20rem;
+    padding-left: 1rem;
+  }
+  .img-responsive1{
+    max-width: 100%;
+    width: 21rem;
+    padding-right: 1rem;
+  }
+  .img-responsive2{
+    max-width: 100%;
+    width: 15.7rem;
+  }
+  .img-responsive3{
+    max-width: 100%;
+    width: 17.9rem;
+    padding-left: 1rem;
+  }
 }
 
 //Mixins

@@ -10,120 +10,136 @@
   <title>Code-Gian</title>
 </head>
 <body>
-  <!--Inicia NAV-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light2">
+<!--Inicia NAV-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light2">
   <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">
-      <a href="../index.html"><h1>Code-Gian</h1></a>
-    </a>
+    <a class="navbar-brand" href="../index.html"><img src="../img/logo.png" class="logo"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-nav mx-auto collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" href="../index.html">Inicio</a>
+          <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="../portafolio/portafolio.html">Portafolio</a>
+          <a class="nav-link" href="portafolio.html">Portafolio</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="../sobremi/sobremi.html">Sobremi</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="../sobremi/sobremi.html">Sobre mí</a>
+          <a class="nav-link" href="../contacto/contacto.html">Contacto</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="../contacto/contacto.html">Contacto</a>
+          <a class="nav-link" href="../mantenimiento/mantenimiento.html">Mantenimineto</a>
         </li>
       </ul>
+    </div>
   </div>
 </nav>
-<!--Termina NAV-->
+  <!--Termina NAV-->
+ <section class="display-flex bg-light">
+            <div>
+                <img src="../img/plantilla1.jpg" alt="plantilla web 1" class="img-div scale">
+            </div>
+            <div>
+                <img src="../img/plantilla2.jpg" alt="plantilla web 2" class="img-div scale">
+            </div>
+            <div>
+                <img src="../img/plantilla3.jpg" alt="plantilla web 3" class="img-div scale">
+            </div>
+            <div>
+                <img src="../img/plantilla4.jpg" alt="plantilla web 4" class="img-div scale">
+            </div>
+            <div>
+                <img src="../img/plantilla5.jpg" alt="plantilla web 5" class="img-div scale">
+            </div>
+            <div>
+                <img src="../img/plantilla6.png" alt="plantilla web 6" class="img-div scale">
+            </div>
+        </section>
 
-
-  <div class="div-container-portafolio" style="max-width: 100%;">
-  <div class="row g-0">
-    <div class="col-md-6">
-      <img src="../img/web2.png" class="img-fluid rounded-start" alt="Diseñamos">
+<div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Plantillas Prediseñadas
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Podes elegir una plantilla prediseñada y adaptable a tu gusto en nuetro catalogo. Para mas variedad e informacion no dudes en contactarnos!</div>
     </div>
-    <div class="col-md-6 my-auto bg-light">
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        Plantillas personalizadas
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Contactate con nosotros para diseñar tu web complentamente personalizada.</div>
+    </div>
+  </div>
+
+<div class="img-carrousel-portaf">
+  <img src="../img/carrousel.jpg" alt="imagen lenguajes programacion" class="img-program">
+</div>
+
+<div class="row row-cols-1 row-cols-md-3 g-4 padding-portafolio-cards padding-cards-portaf">
+  <div class="col">
+    <div class="card bg-light padding-img-cards">
+      <img src="../img/web2.png" class="card-img-top" alt="Servico basico">
       <div class="card-body">
-        <h2 class="card-title">Plantilla 1</h2>
-        <h3 class="card-title">Wp</h3>
-        <p class="card-text">-Boton Whatsapp.</p>
-        <h3 class="card-title">Secciones</h3>
-        <p class="card-text">-3 Secciones incluidas.</p>
-        <h3 class="card-title">DOM</h3>
-        <p class="card-text">-Dominio Incluido.</p>
-        <button class="btn-portafolio">
+        <h5 class="card-title">Servico basico</h5>
+        <p class="card-text">-Boton wp<br>-3 Secciones<br>-Domino incluido</p>
+        <button class="btn-portafolio scale">
         Comprar ahora
         </button>
       </div>
     </div>
   </div>
-</div>
-
-<div class="div-container-portafolio" style="max-width: 100%;">
-  <div class="row g-0">
-    <div class="col-md-6">
-      <img src="../img/web1.png" class="img-fluid rounded-start" alt="Diseñamos">
-    </div>
-      <div class="col-md-6 my-auto bg-light">
+  <div class="col">
+    <div class="card bg-light padding-img-cards">
+      <img src="../img/web2.png" class="card-img-top" alt="Servicio Estandar">
       <div class="card-body">
-        <h2 class="card-title">Plantilla 2</h2>
-        <h3 class="card-title">Wp</h3>
-        <p class="card-text">-Boton Whatsapp.</p>
-        <h3 class="card-title">Secciones</h3>
-        <p class="card-text">-3 Secciones incluidas.</p>
-        <h3 class="card-title">DOM</h3>
-        <p class="card-text">-Dominio Incluido.</p>
-        <h3 class="card-title">Form</h3>
-        <p class="card-text">Formulario de Contacto.</p>
-        <h3 class="card-title">Administracion</h3>
-        <p class="card-text">Autoadministrable.</p>
-        <button class="btn-portafolio">
+        <h5 class="card-title">Servicio Estandar</h5>
+        <p class="card-text">-Boton wp<br>-3 Secciones<br>-Domino incluido<br>-Formulario de contaacto<br>-Autoadministrable</p>
+        <button class="btn-portafolio scale">
         Comprar ahora
         </button>
       </div>
     </div>
   </div>
-</div>
-
-<div class="div-container-portafolio scale" style="max-width: 100%;">
-  <div class="row g-0">
-    <div class="col-md-6 scale">
-      <img src="../img/web3.png" class="img-fluid rounded-start" alt="Diseñamos">
-    </div>
-    <div class="col-md-6 my-auto bg-light">
+  <div class="col">
+    <div class="card bg-light padding-img-cards">
+      <img src="../img/web2.png" class="card-img-top" alt="Servicio Premium">
       <div class="card-body">
-        <h2 class="card-title">Plantilla 2</h2>
-        <h3 class="card-title">Wp</h3>
-        <p class="card-text">-Boton Whatsapp.</p>
-        <h3 class="card-title">Secciones</h3>
-        <p class="card-text">-3 Secciones incluidas.</p>
-        <h3 class="card-title">DOM</h3>
-        <p class="card-text">-Dominio Incluido.</p>
-        <h3 class="card-title">Form</h3>
-        <p class="card-text">Formulario de Contacto.</p>
-        <h3 class="card-title">Administracion</h3>
-        <p class="card-text">Autoadministrable.</p>
-        <h3 class="card-title">Responsive</h3>
-        <p class="card-text">Adaptabilidad en dispositivos</p>
-        <button class="btn-portafolio">
+        <h5 class="card-title">Servicio Premium</h5>
+        <p class="card-text">-Boton wp<br>-3 Secciones<br>-Domino incluido<br>-Formulario de contaacto<br>-Autoadministrable<br>-Adaptabilidad en dispositivos</b></b>.</p>
+        <button class="btn-portafolio scale">
         Comprar ahora
         </button>
       </div>
     </div>
   </div>
+  </div>
 </div>
+
 
 <footer class="bg-light2 footer">
   <section>
             <h4 class="code-gian">Code-Gian</h4>
     </section>
     <section>
-            <img src="../footer-icons/ig.png" class="footer-icons">
-            <img src="../footer-icons/youtube.png" class="footer-icons">
-            <img src="../footer-icons/face.png" class="footer-icons">
+            <img src="../footer-icons/ig.png" alt="icono instagram" class="footer-icons">
+            <img src="../footer-icons/youtube.png" alt="icono youtube" class="footer-icons">
+            <img src="../footer-icons/face.png" alt="icono facebook" class="footer-icons">
     </section>
 </footer>
 
 <!--js/Bootsrap.min.js-->
-    <script type="js/bootstrap.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
 
 </body>
 </html>

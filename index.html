@@ -12,40 +12,46 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+
+
 	<!--Inicia NAV-->
-	<nav class="navbar navbar-expand-lg navbar-light bg-light2">
+<nav class="navbar navbar-expand-lg navbar-light bg-light2">
   <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">
-    	<h1>Code-Gian</h1>
-    </a>
+    <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo" class="logo"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-nav mx-auto collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" href="index.html">Inicio</a>
+          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="portafolio/portafolio.html">Portafolio</a>
+          <a class="nav-link" href="portafolio/portafolio.html">Portafolio</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="sobremi/sobremi.html">Sobremi</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="sobremi/sobremi.html">Sobre mí</a>
+          <a class="nav-link" href="contacto/contacto.html">Contacto</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="contacto/contacto.html">Contacto</a>
+          <a class="nav-link" href="mantenimiento/mantenimiento.html">Mantenimiento</a>
         </li>
       </ul>
+    </div>
   </div>
 </nav>
 	<!--Termina NAV-->
-<section>
-	<div>
-		<img src="img/foto2.jpg" class="img-index">
-	</div>
-</section>
 
+<div>
+  <h2 class="div-presentacion icons-sobremi-animations">Full Stack Developer<br>¡Bienvenidos a mi portafolio Online!</h2>
+</div>
 
-<div class="div-container-card" style="max-width: 100%;">
+<div class="div-container-card bg-light" style="max-width: 100%;">
   <div class="row g-0">
     <div class="col-md-4">
-      <img src="img/card1.jpg" class="img-fluid rounded-start" alt="Diseñamos">
+      <img src="img/card1.jpg" alt="diseño del sitio" class="img-fluid rounded-start" alt="Diseñamos">
     </div>
     <div class="col-md-8 my-auto">
       <div class="card-body">
@@ -56,27 +62,46 @@
   </div>
 </div>
 
+<div class="div-inicio bg-light">
+<div>
+  <img src="img/img1.png" alt="plantillas web" class="img1 scale">
+</div>
+<div>
+  <img src="img/img2.png" alt="plantillas web" class="img2 scale">
+</div>
+<div>
+  <img src="img/img3.jpg" alt="plantillas web" class="img3 scale">
+</div>
+</div>
 
-<div class="div-container-card" style="max-width: 100%;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="img/card2.png" class="img-fluid rounded-start" alt="Diseñamos">
+<div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Soporte por correo electronico y whatsapp.
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Estoy siempre pendiente de mis correos electrónicos para responder cualquier pregunta que tengas o para realizar cualquier cambio adicional que me solicites.<br>¡Envíame un correo electrónico o wp cuando sea!</div>
     </div>
-    <div class="col-md-8 my-auto">
-      <div class="card-body">
-        <h2 class="card-title">Generación y diseño de tiendas online para que aumentes tus ventas.</h2>
-        <p class="card-text">Realizar ventas web no tiene que ser tan complicado. ¿Cómo conseguirlo? Nosotros hacemos la parte difícil . Te diseñamos y generamos tu tienda web para que puedas aumentar tus canales de venta y tu exposición. </p>
-      </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        Diseños personalizados
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Diseñamos tu sitio web completamente personalizado, tambien podes elegir algunos de nuestros prediseños o plantillas webs! </div>
     </div>
+  </div>
   </div>
 </div>
 
-
-
-<div class="div-container-card col-sm-12 col-md-12 col-lg-12" style="max-width: 100%;">
+<div class="div-container-card padding-disenamos bg-light padding-index-img" style="max-width: 100%;">
   <div class="row g-0">
     <div class="col-md-4">
-      <img src="img/card3.png" class="img-fluid rounded-start" alt="Gestionamos">
+      <img src="img/card2.png" alt="gestionamos sitio web" class="img-fluid rounded-start" alt="Diseñamos">
     </div>
     <div class="col-md-8 my-auto">
       <div class="card-body">
@@ -87,10 +112,34 @@
   </div>
 </div>
 
+<div class="div-inicio padding-index-img bg-light">
+<div>
+  <img src="img/img-responsive1.jpg" alt="responsive desktop" class="img-responsive1 scale">
+</div>
+<div>
+  <img src="img/img-responsive2.jpg" alt="responsive tablets" class="img-responsive2 scale">
+</div>
+<div>
+  <img src="img/img-responsive3.jpg" alt="responsive celular" class="img-responsive3 scale">
+</div>
+</div>
 
+<div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Que es un sitio web responsive?
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">El sitio web sera adaptable tanto a desktop como tablets y smartphones, utilizando los mejores frameworks responsivos.</div>
+    </div>
+  </div>
+  </div>
+</div>
 
      <div class="div-index-container">
-  <div class="div-index bg-light">
+  <div class="div-index bg-light" >
       <img src="img/figure1.png" class="card-img-top img-small-index" alt="Potencia">
       <h3>Potencia tu Negocio</h3>
       <p>Modernizándote podes aumentar tus ventas, hoy en día la vidriera mas vista es por los medios digitales y un sitio web es la mejo manera para eso.</p>
@@ -106,21 +155,20 @@
       <p>Contamos con servicios en los cuales la actualización es permanente para mantener los sitios siempre vigentes y evitar la obsolescencia de ellos</p>
   </div>
 </div>
-<!--Termina card 3-->
 
 <footer class="bg-light2 footer">
 	<section>
             <h4 class="code-gian">Code-Gian</h4>
     </section>
     <section>
-            <img src="footer-icons/ig.png" class="footer-icons">
-            <img src="footer-icons/youtube.png" class="footer-icons">
-            <img src="footer-icons/face.png" class="footer-icons">
+            <img src="footer-icons/ig.png" alt="instagram" class="footer-icons">
+            <img src="footer-icons/youtube.png" alt="youtube" class="footer-icons">
+            <img src="footer-icons/face.png" alt="facebook" class="footer-icons">
     </section>
 </footer>	
 
 <!--js/Bootsrap.min.js-->
-<script type="js/bootstrap.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 
 </body>
 </html>
